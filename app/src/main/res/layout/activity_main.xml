@@ -26,6 +26,7 @@
                     android:layout_marginLeft="20dp"
                     />
                 <TextView
+                    android:id="@+id/score_x"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="0"
@@ -49,6 +50,7 @@
                     android:layout_marginLeft="10dp"
                     android:id="@+id/textView" />
                 <TextView
+                    android:id="@+id/score_o"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="0"
@@ -155,7 +157,7 @@
         android:id="@+id/button"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:onClick="reselALL"/>
+        />
 
 </RelativeLayout>
 
